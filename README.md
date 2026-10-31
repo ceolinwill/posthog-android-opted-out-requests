@@ -1,5 +1,7 @@
 # posthog-android: an opted-out SDK still sends requests
 
+Reported in [PostHog/posthog-android#919](https://github.com/PostHog/posthog-android/issues/919).
+
 While opted out, the SDK still sends requests to PostHog:
 
 1. `identify()` and `reset()` each send a `POST /flags` with the distinct id, the anonymous id and the device id, even when the SDK was set up opted out and never opted in.
