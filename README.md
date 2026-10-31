@@ -50,4 +50,4 @@ Nothing reaches PostHog while the SDK is opted out: no `/flags` request from `id
 
 - `com.posthog:posthog` 6.48.0 (posthog-android 3.75.0)
 - Kotlin 2.4.21, Gradle 9.8.2, JDK 25
-- macOS 27.2 (arm64); the same requests show up from posthog-android 3.75.0 on an Android 37 emulator
+- macOS 27.2 (arm64)
